@@ -41,26 +41,26 @@ Coffee Quality and Sustainability
   * *Category One Defects*: Primary defects perceived through visual inspection of the coffee beans
   * *Category Two Defects*: Secondary defects that can only be percieved through tasting
 
-
-
 ## Data Acquisition
 
-The data were retrieved through HTML parsing and SQL queries of a large database provided by TripleTen. 
+The data come originally from the CQI web database on coffee quality and sustainability and were made available through TripleTen.
 
 ## Data Preprocessing
 
-Data were checked for missing values and duplicates. None were found and no imputation was necessary.
+Missing values in string variables were imputed with 'unknown'. There was only one missing quantitative observation, and the row was dropped from the dataset. Implicit duplicates in color were cleaned by combining similar categories. Altitude values entered into the dataset as ranges were used to calculate an average altitude feature, representing the average of the two endpoints of the altitude range.
  
 # Code Structure
 ```
-  ├── LICENSE
   ├── README.md          
   │
   ├── images
-  │   └── car-picture.png    
+  │   └── coffee.png    
   │
   ├── notebooks  
-  │   └── Zuber_Analysis.ipynb 
+  │   └── coffee_analysis.ipynb
+  │
+  ├── modules  
+  │   └── __init__.cypthon-310.pyc
   │
   └── requirements.txt  
 ```
