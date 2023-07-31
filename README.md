@@ -90,7 +90,15 @@ Missing values in string variables were imputed with 'unknown'. The row with the
   alt="Scatter plot of total cup points by altitude">
 </p>
 
+Based on the coffees in this data, you're better off choosing coffee by strain than by country, particularly Gesha, Java, SL34, and Ethiopian Hierlooms tend to be consistently highly rated in all quality areas. Generally, you can't know which coffee will be the best based only on country of origin, though Columbia does grow the single most highly rated coffee in the Piendamo, Cauca region, and Ethiopian coffees are rated the highest most consistently. Definitely don't choose coffee based on bean color. You can expect that coffee grown at higher altitudes will have slightly better quality across multiple quality measures than coffee grown at low altitudes.
+
+But ultimately, the coffee batches in this data were all outstanding quality and rated consistently high, with total cup points only varying between 78 and 90 points out of a possible 100. This dataset represents some high quality coffee, and we can only determine so much about what makes good and bad coffee from a dataset with all outstanding quality.
+
 # Future Work
 
+In future work, additional data should be brought in with larger quality variation to determine what makes good and bad coffee. Additionally, other factors that can affect quality, such as rain fall, humidity, and shade levels, could analyzed to determine if they have marked impact on quality.
+
 # Acknowledgments/References
+
+Data from TripleTen's Data Science Data Visualization Weekend Challenge.
 
