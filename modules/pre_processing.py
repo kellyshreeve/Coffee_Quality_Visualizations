@@ -1,3 +1,6 @@
+from packages_data import *
+pd.options.mode.chained_assignment = None
+
 ## DATA PRE PROCESSING
 # Column names in snake case
 coffee.columns = coffee.columns.str.lower().str.replace(' ', '_')
@@ -41,3 +44,8 @@ coffee['country_of_origin'].value_counts()
 # Replace 'unkow' with 'unkown'
 coffee['variety'] = coffee['variety'].replace('unkow', 'unknown')
 
+print('\033[1m Cleaned Coffee Dataset: \033[0m')
+print()
+
+print(coffee.info())
+display(coffee.head())
