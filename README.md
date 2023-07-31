@@ -47,22 +47,22 @@ The data come originally from the CQI web database on coffee quality and sustain
 
 ## Data Preprocessing
 
-Missing values in string variables were imputed with 'unknown'. There was only one missing quantitative observation, and the row was dropped from the dataset. Implicit duplicates in color were cleaned by combining similar categories. Altitude values entered into the dataset as ranges were used to calculate an average altitude feature, representing the average of the two endpoints of the altitude range.
+Missing values in string variables were imputed with 'unknown'. The row with the single missing quantitative observation was dropped from the dataset. Implicit duplicates in color were cleaned by combining similar categories. Altitude values entered into the dataset as ranges were used to calculate an average altitude feature, representing the average of the two endpoints of the altitude range.
  
 # Code Structure
 ```
   ├── README.md          
   │
   ├── images
-  │   └── coffee.png    
-  │
-  ├── notebooks  
-  │   └── coffee_analysis.ipynb
+  │   └── coffee.png  
   │
   ├── modules  
-  │   └── __init__.cypthon-310.pyc
+  │   └── __init__.py
+  │   └── pre_processing.py
+  │   └── read_data.py
   │
-  └── requirements.txt  
+  └── notebooks  
+      └── coffee_analysis.ipynb
 ```
 
 # Results and Evaluation
