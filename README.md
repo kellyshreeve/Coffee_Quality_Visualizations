@@ -47,7 +47,7 @@ The data come originally from the CQI web database on coffee quality and sustain
 
 ## Data Preprocessing
 
-Missing values in string variables were imputed with 'unknown'. The row with the single missing quantitative observation was dropped from the dataset. Implicit duplicates in color were cleaned by combining similar categories. Altitude values entered into the dataset as ranges were used to calculate an average altitude feature, representing the average of the two endpoints of the altitude range.
+Missing values in string variables were imputed with 'unknown'. Only one row was missing quantitative data and was dropped from the dataset. Implicit duplicates in color were cleaned by combining similar categories. Altitude values entered into the dataset as ranges were used to calculate an average altitude feature, representing the average of the two endpoints of the altitude range.
  
 # Code Structure
 ```
