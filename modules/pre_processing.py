@@ -1,4 +1,4 @@
-from read_data import *
+from modules.read_data import *
 pd.options.mode.chained_assignment = None
 
 ## DATA PRE PROCESSING
