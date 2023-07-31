@@ -54,7 +54,10 @@ Missing values in string variables were imputed with 'unknown'. The row with the
   ├── README.md          
   │
   ├── images
-  │   └── coffee.png  
+  │   └── coffee.png 
+  │   └── quality_altitude.png
+  │   └── quality_country.png
+  │   └── total_points_variety.png 
   │
   ├── modules  
   │   └── __init__.py
@@ -68,18 +71,23 @@ Missing values in string variables were imputed with 'unknown'. The row with the
 # Results and Evaluation
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/Zuber_Rides_Analysis/blob/main/images/trips-company.png" 
-  alt="Bar graph of total trips by company">
+  <img src="https://github.com/kellyshreeve/Coffee_Quality_Visualizations/blob/main/images/quality_country.png" 
+  alt="Bar graph of average coffee quality measures by country">
 </p>
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/Zuber_Rides_Analysis/blob/main/images/drop-offs.png" 
-  alt="Bar graph of average drop offs by neighborhood">
+  <img src="https://github.com/kellyshreeve/Coffee_Quality_Visualizations/blob/main/images/quality_variety.png" 
+  alt="Bar graph of average coffee quality by variety">
 </p>
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/Zuber_Rides_Analysis/blob/main/images/hypothesis-test.png" 
-  alt="Statistical output of two-indpendent samples t-test comparing average trip length in good vs bad weather">
+  <img src="https://github.com/kellyshreeve/Coffee_Quality_Visualizations/blob/main/images/total_points_variety.png" 
+  alt="Boxplot of total points by variety">
+</p>
+
+<p align="center">
+  <img src="https://github.com/kellyshreeve/Coffee_Quality_Visualizations/blob/main/images/quality_altitude.png" 
+  alt="Scatter plot of total cup points by altitude">
 </p>
 
 # Future Work
