@@ -1,13 +1,13 @@
 # Visualizing the Perfect Cup of Coffee
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/Zuber_Rides_Analysis/blob/main/images/carimage.png" 
+  <img src="https://github.com/kellyshreeve/Coffee_Quality_Visualizations/blob/main/images/coffee.png" 
   alt="Purple car cartoon">
 </p>
 
 # Project Overview
 
-This repository hosts an in-depth analysis of ride-share customer behavior in Chicago and includes descriptive statistics, data visualizations, and hypothesis tests on data from competitors in the area. This data science project was conducted for Zuber, a new ride share company launching in Chicago, with the purpose of finding which companies are top competitors, which neighborhoods are most popular for drop offs, and whether there is a difference in trip length on rainy days and sunny days.
+This project uses high-level plotly visualizations to visualize coffee quality across the world. Using a dataset of 207 coffee batches from different regions and of different varieties, the purpose is to determine which region, variety, and altitude produce the best quality coffee. 
 
 # Installation and Setup
 
@@ -18,32 +18,29 @@ This repository hosts an in-depth analysis of ride-share customer behavior in Ch
 
 ## Python Packages Used
 
-  - <b>General Purpose</b>: NA
   - <b>Data Manipulation</b>: ```pandas```
-  - <b>Data Visualization</b>: ```plotly.express```
+  - <b>Data Visualization</b>: ```matplotlib, plotly.express```
   - <b>Statistical Analysis</b>: ```SciPy, researchpy```
-  - <b>Machine Learning</b>: NA
-
-## Installing development requirements
-
-```pip install -r requirements.txt```
 
 # Data
 
 ## Source Data
 
-sql_result_01.csv
-  * *company_name*: taxi company name
-  * *trips_amount*: the number of rides for each taxi company on November 15-16, 2017  
+Coffee Quality and Sustainability
+    **country_of_origin*: Country coffee was grown in
+    **color*: Color of the coffee bean
+    **variety*: Coffee bean variety
+    **Aroma*: Refers to the sent or fragrance of the coffee
+    **Flavor*: The flavor of coffee is evaluated based on the taste, including any sweetness, bitterness, acidity, and other flavor notes.
+    **Aftertaste*: Refers to the lingering taste that remains in the mouth after swallowing the coffee.
+Acidity: Acidity in coffee refers to the brightness or liveliness of the taste.
+Body: The body of coffee refers to the thickness or viscosity of the coffee in the mouth.
+Balance: Balance refers to how well the different flavor components of the coffee work together.
+Uniformity: Uniformity refers to the consistency of the coffee from cup to cup.
+Clean Cup: A clean cup refers to a coffee that is free of any off-flavors or defects, such as sourness, mustiness, or staleness.
+Sweetness: It can be described as caramel-like, fruity, or floral, and is a desirable quality in coffee.
 
-sql_result_04.csv
-  * *dropoff_location_name*: Chicago neighborhoods where rides ended
-  * *average_trips*: the average number of rides that ended in each neighborhood in November 2017  
 
-sql_result_07.csv
-  * *start_ts*: picup date and time
-  * *weather_conditions*: weather conditions at the moment the ride started
-  * *duration_seconds*: ride duration in seconds
 
 ## Data Acquisition
 
