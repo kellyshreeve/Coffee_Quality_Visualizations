@@ -96,7 +96,7 @@ But ultimately, the coffee batches in this data were all outstanding quality and
 
 # Future Work
 
-In future work, additional data should be brought in with larger quality variation to determine what makes good and bad coffee. Additionally, other factors that can affect quality, such as rain fall, humidity, and shade levels, could analyzed to determine if they have marked impact on quality.
+In future work, additional data should be brought in with larger quality variation to determine what makes good and bad coffee. Additionally, other factors that can affect quality, such as rain fall, humidity, and shade levels, could be analyzed to determine if they have marked impact on quality.
 
 # Acknowledgments/References
 
