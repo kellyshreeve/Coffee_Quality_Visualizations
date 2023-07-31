@@ -20,25 +20,26 @@ This project uses high-level plotly visualizations to visualize coffee quality a
 
   - <b>Data Manipulation</b>: ```pandas```
   - <b>Data Visualization</b>: ```matplotlib, plotly.express```
-  - <b>Statistical Analysis</b>: ```SciPy, researchpy```
 
 # Data
 
 ## Source Data
 
 Coffee Quality and Sustainability
-    * *country_of_origin*: Country coffee was grown in  
-    * *color*: Color of the coffee bean  
-    * *variety*: Coffee bean variety  
-    * *Aroma*: Refers to the sent or fragrance of the coffee  
-    * *Flavor*: The flavor of coffee is evaluated based on the taste, including any sweetness, bitterness, acidity, and other flavor notes.  
-    * *Aftertaste*: Refers to the lingering taste that remains in the mouth after swallowing the coffee.   
-Acidity: Acidity in coffee refers to the brightness or liveliness of the taste.
-Body: The body of coffee refers to the thickness or viscosity of the coffee in the mouth.
-Balance: Balance refers to how well the different flavor components of the coffee work together.
-Uniformity: Uniformity refers to the consistency of the coffee from cup to cup.
-Clean Cup: A clean cup refers to a coffee that is free of any off-flavors or defects, such as sourness, mustiness, or staleness.
-Sweetness: It can be described as caramel-like, fruity, or floral, and is a desirable quality in coffee.
+  * *country_of_origin*: Country coffee was grown in  
+  * *color*: Color of the coffee bean
+  * *variety*: Coffee bean variety
+  * *Aroma*: Refers to the sent or fragrance of the coffee
+  * *Flavor*: The flavor of coffee is evaluated based on the taste, including any sweetness, bitterness, acidity, and other flavor notes.
+  * *Aftertaste*: Refers to the lingering taste that remains in the mouth after swallowing the coffee.   
+  * *Acidity*: Acidity in coffee refers to the brightness or liveliness of the taste.
+  * *Body*: The body of coffee refers to the thickness or viscosity of the coffee in the mouth.
+  * *Balance*: Balance refers to how well the different flavor components of the coffee work together.
+  * *Uniformity*: Uniformity refers to the consistency of the coffee from cup to cup.
+  * *Clean Cup*: A clean cup refers to a coffee that is free of any off-flavors or defects, such as sourness, mustiness, or staleness.
+  * *Sweetness*: It can be described as caramel-like, fruity, or floral, and is a desirable quality in coffee.
+  * *Category One Defects*: Primary defects perceived through visual inspection of the coffee beans
+  * *Category Two Defects*: Secondary defects that can only be percieved through tasting
 
 
 
