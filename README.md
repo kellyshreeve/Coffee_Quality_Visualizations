@@ -76,11 +76,6 @@ Missing values in string variables were imputed with 'unknown'. Only one row was
 </p>
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/Coffee_Quality_Visualizations/blob/main/images/quality_variety.png" 
-  alt="Bar graph of average coffee quality by variety">
-</p>
-
-<p align="center">
   <img src="https://github.com/kellyshreeve/Coffee_Quality_Visualizations/blob/main/images/total_points_variety.png" 
   alt="Boxplot of total points by variety">
 </p>
