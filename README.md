@@ -1,4 +1,4 @@
-# Visualizing the Perfect Cup of Coffee
+# Visualizing Coffee Quality
 
 <p align="center">
   <img src="https://github.com/kellyshreeve/Coffee_Quality_Visualizations/blob/main/images/coffee.png" 
