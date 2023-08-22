@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://github.com/kellyshreeve/Coffee_Quality_Visualizations/blob/main/images/coffee.png" 
-   width="700"
+   width="650"
    height="400"
   alt="Image of a cup of coffee on a bed of green leaves">
 </p>
