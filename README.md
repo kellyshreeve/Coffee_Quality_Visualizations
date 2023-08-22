@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://github.com/kellyshreeve/Coffee_Quality_Visualizations/blob/main/images/coffee.png" 
-   width="400"
-   height="300"
+   width="500"
+   height="400"
   alt="Image of a cup of coffee on a bed of green leaves">
 </p>
 
