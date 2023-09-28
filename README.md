@@ -7,25 +7,25 @@
   alt="Image of a cup of coffee on a bed of green leaves">
 </p>
 
-# Project Overview
+## Project Overview
 
 This project uses high-level plotly visualizations to visualize coffee quality across the world. Using a dataset of 207 coffee batches from different regions and of different varieties, the purpose is to determine which region, variety, and altitude produce the best quality coffee. 
 
-# Installation and Setup
+## Installation and Setup
 
-## Codes and Resources Used
+### Codes and Resources Used
 
   - <b>Editor Used</b>: Visual Studio Code
   - <b>Python Version</b>: 3.10.9
 
-## Python Packages Used
+### Python Packages Used
 
   - <b>Data Manipulation</b>: ```pandas```
   - <b>Data Visualization</b>: ```matplotlib, plotly.express```
 
-# Data
+## Data
 
-## Source Data
+### Source Data
 
 Coffee Quality and Sustainability
   * *country_of_origin*: Country coffee was grown in  
@@ -43,15 +43,15 @@ Coffee Quality and Sustainability
   * *Category One Defects*: Primary defects perceived through visual inspection of the coffee beans
   * *Category Two Defects*: Secondary defects that can only be percieved through tasting
 
-## Data Acquisition
+### Data Acquisition
 
 The data come originally from the CQI web database on coffee quality and sustainability and were made available through TripleTen.
 
-## Data Preprocessing
+### Data Preprocessing
 
 Missing values in string variables were imputed with 'unknown'. Only one row was missing quantitative data and was dropped from the dataset. Implicit duplicates in color were cleaned by combining similar categories. Altitude values entered into the dataset as ranges were used to calculate an average altitude feature, representing the average of the two endpoints of the altitude range.
  
-# Code Structure
+## Code Structure
 ```
   ├── README.md          
   │
@@ -70,7 +70,7 @@ Missing values in string variables were imputed with 'unknown'. Only one row was
       └── coffee_analysis.ipynb
 ```
 
-# Results and Evaluation
+## Results and Evaluation
 
 <p align="center">
   <img src="https://github.com/kellyshreeve/Coffee_Quality_Visualizations/blob/main/images/choropleth.png" 
@@ -91,11 +91,11 @@ Based on the coffees in this data, you're better off choosing coffee by strain t
 
 But ultimately, the coffee batches in this data were all outstanding quality and rated consistently high, with total cup points only varying between 78 and 90 points out of a possible 100. This dataset represents some high quality coffee, and we can only determine so much about what makes good and bad coffee from a dataset with all outstanding quality.
 
-# Future Work
+## Future Work
 
 In future work, additional data should be brought in with larger quality variation to determine what makes good and bad coffee. Additionally, other factors that can affect quality, such as rain fall, humidity, and shade levels, could be analyzed to determine if they have marked impact on quality.
 
-# Acknowledgments/References
+## Acknowledgments/References
 
 Data from TripleTen's Data Science Data Visualization Weekend Challenge.
 
